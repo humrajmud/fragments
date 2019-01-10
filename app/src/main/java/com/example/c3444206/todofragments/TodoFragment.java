@@ -14,6 +14,9 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
 
+//controller class for manupilating
+// fragments in a layout and it needs to extend and be a subclass of the Fragment class.
+
 //This a controller class for manupilating fragments
 // in a layout and it needs to extend and be a subclass of the Fragment class.
 
@@ -22,6 +25,10 @@ import android.widget.EditText;
 // 1) Crete a layout file to contain the UI widgets
 // 2) Create a class to use the layout
 // 3) Overide methods to inflate the view objects
+
+//controller class, the TodoFragment sits between the model and the view and supports the
+// getter and setter methods for the data in the view.
+// The TodoFragment onCreate method instantiates the Todo model.
 
 public class TodoFragment extends Fragment {
 

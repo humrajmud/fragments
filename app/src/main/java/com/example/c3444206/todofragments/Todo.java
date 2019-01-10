@@ -11,6 +11,9 @@ import java.util.UUID;
 // displayed when they are added to an Activity. This
 // is acheived with the Fragment Manager class that keeps track of the
 // Fragment and the Back Stack objects.
+
+//The model is currently a Plane Old Java Object(POJO)
+// with the getter and setter methods for the data that represents a Todo.
 public class Todo {
 
     private UUID mId;

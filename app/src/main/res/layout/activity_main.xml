@@ -5,3 +5,5 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     />
+    <!--To implement fragments we need a generic container to host the fragments. We shall use the FrameLayout as it is completely
+    generic and suitable for hosting fragments. -->
